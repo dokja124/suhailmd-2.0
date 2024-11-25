@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/suhailmd-2.0";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/ZmTnJWj/1b7e914fc38f872d.jpg" || "https://i.ibb.co/ZmTnJWj/1b7e914fc38f872d.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/5ufmuh.mp4" || "https://files.catbox.moe/5ufmuh.mp4" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "© SuhailTechInfo" 
 
 
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "Suhailmd-2.0",
-  ownername:process.env.OWNER_NAME|| "Diwate",
+  ownername:process.env.OWNER_NAME|| "",
 
 
   errorChat : process.env.ERROR_CHAT || "",
